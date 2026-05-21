@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="home">
+    <main class="page-shell">
+      <section class="card home-panel">
+        <div class="brand">
+          <h1>Home Page</h1>
+          <p>You are now logged in to your simple multi-page website.</p>
+        </div>
+
+        <h2>
+          Welcome, <span id="welcomeText" class="welcome-name">User</span>!
+        </h2>
+        <p>
+          This page reads the active session from <code>localStorage</code> and
+          shows the logged-in username.
+        </p>
+
+        <button id="logoutButton" class="btn btn-secondary">Logout</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

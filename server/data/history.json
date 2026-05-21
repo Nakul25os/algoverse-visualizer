@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1775790987644",
+    "algorithm": "AVL Tree",
+    "category": "Trees",
+    "input": "30,20,10,25,40,50",
+    "steps": 6,
+    "durationMs": 0.1,
+    "complexity": {
+      "time": "O(log n)",
+      "space": "O(n)"
+    },
+    "createdAt": "2026-04-10T03:16:27.644Z"
+  },
+  {
+    "id": "1775790960984",
+    "algorithm": "Linear Search",
+    "category": "Searching Algorithms",
+    "input": "2,4,6,8,10,12|10",
+    "steps": 7,
+    "durationMs": 0,
+    "complexity": {
+      "time": "O(n)",
+      "space": "O(1)"
+    },
+    "createdAt": "2026-04-10T03:16:00.984Z"
+  },
+  {
+    "id": "1775790932052",
+    "algorithm": "Circular Queue",
+    "category": "Data Structures",
+    "input": "enqueue 4,enqueue 7,enqueue 9,dequeue,enqueue 2",
+    "steps": 6,
+    "durationMs": 0,
+    "complexity": {
+      "time": "O(1) per op",
+      "space": "O(n)"
+    },
+    "createdAt": "2026-04-10T03:15:32.052Z"
+  },
+  {
+    "id": "1775790835850",
+    "algorithm": "FCFS Disk Scheduling",
+    "category": "Disk Scheduling",
+    "input": "head=53;requests=98,183,37,122,14,124,65,67;size=200;direction=right",
+    "steps": 8,
+    "durationMs": 0,
+    "complexity": {
+      "time": "O(n)",
+      "space": "O(n)"
+    },
+    "createdAt": "2026-04-10T03:13:55.850Z"
+  },
+  {
+    "id": "1775790824616",
+    "algorithm": "Selection Sort",
+    "category": "Sorting Algorithms",
+    "input": "10,4,7,2,9,1,5",
+    "steps": 37,
+    "durationMs": 0,
+    "complexity": {
+      "time": "O(n^2)",
+      "space": "O(1)"
+    },
+    "createdAt": "2026-04-10T03:13:44.616Z"
+  }
+]
